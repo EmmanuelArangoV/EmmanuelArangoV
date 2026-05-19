@@ -4,6 +4,9 @@
   <img src="./assets/cyber-profile.svg" alt="Emmanuel Arango Interactive Profile Panel" width="100%">
 </picture>
 
+### `> WHAT I AM LISTENING TO`
+
+[![spotify-github-profile](https://spotify-github-profile.kittinanx.com/api/view?uid=21ug24tuwr4jgixmj3nqrlvbi&cover_image=true&theme=spotify-embed&show_offline=true&background_color=292929&interchange=false&profanity=false&hide_remaster=false&bar_color=00196b&bar_color_cover=false&mode=light)](https://spotify-github-profile.kittinanx.com/api/view?uid=21ug24tuwr4jgixmj3nqrlvbi&redirect=true)
 ### `> EXECUTE_LINKS.sh`
 
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-020617?style=for-the-badge&logo=linkedin&logoColor=38bdf8&labelColor=020617&border=38bdf8)](https://www.linkedin.com/in/emmanuel-arango-1795b5367)
