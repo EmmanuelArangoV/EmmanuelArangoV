@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="23b9cbc1-9550-42c5-8e1a-a56aa48700b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/assets/cyber-profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/cyber-profile.svg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotChats">
+    <option name="panelChat">
+      <chat>
+        <option name="activeSessionId" value="dfa5d0d3-9d90-4f15-bb39-d95f2bef6ff2" />
+        <option name="sessions">
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="86159cf6-e571-408d-8d8c-5120eadfdf26" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="status" value="Stopped" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+          <session>
+            <option name="chatType" value="PANEL" />
+            <option name="id" value="dfa5d0d3-9d90-4f15-bb39-d95f2bef6ff2" />
+            <option name="modeId" value="Agent" />
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+            <option name="targetType" value="LOCAL" />
+          </session>
+        </option>
+        <option name="type" value="PANEL" />
+      </chat>
+    </option>
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_D:/Emmanuel Arango/Documents/EmmanuelArangoV" value="3DuRVWVJvOo6wNEyR2Daq3VWx7M" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="agent-panel" value="Auto" />
+      <entry key="chat-panel" value="Auto" />
+    </selectedModels>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="19" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EmmanuelArangoV&quot;
+  }
+}</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="f7338d84-4408-4358-a3aa-0f487c7b9c6a" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EmmanuelArangoV/EmmanuelArangoV.git&quot;,
+    &quot;accountId&quot;: &quot;f7338d84-4408-4358-a3aa-0f487c7b9c6a&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0008454731910716" />
+      <entry key="MS500" value="1.4899113262694237" />
+      <entry key="S2" value="6.9165837891581345" />
+      <entry key="S5" value="15.851324844226989" />
+      <entry key="S10" value="22.682043515511147" />
+      <entry key="S30" value="29.681982771845572" />
+      <entry key="S60" value="32.18682202104764" />
+      <entry key="M2" value="33.82787394478152" />
+      <entry key="M5" value="35.78112772995929" />
+      <entry key="M10" value="39.423241184116726" />
+      <entry key="M15" value="42.51618326375248" />
+      <entry key="M30" value="47.81908329460251" />
+      <entry key="H1" value="51.77976923366031" />
+      <entry key="H2" value="54.20952917646192" />
+      <entry key="H4" value="55.556445546520195" />
+      <entry key="D1" value="56.7524034804772" />
+      <entry key="W1" value="56.964453582159024" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="9.207126234597466E-73" />
+      <entry key="S2" value="9.79559959069328E-19" />
+      <entry key="S5" value="6.257666440857971E-8" />
+      <entry key="S10" value="2.501532818265226E-4" />
+      <entry key="S30" value="0.0630089247394474" />
+      <entry key="S60" value="0.25101874087162834" />
+      <entry key="M2" value="0.5029346763192717" />
+      <entry key="M5" value="0.8706645566599012" />
+      <entry key="M10" value="1.3349892406284785" />
+      <entry key="M15" value="1.663644058568259" />
+      <entry key="M30" value="2.178171338142568" />
+      <entry key="H1" value="2.5403905082358085" />
+      <entry key="H2" value="2.756426189731663" />
+      <entry key="H4" value="2.8745480102654386" />
+      <entry key="D1" value="2.978562179324362" />
+      <entry key="W1" value="2.996924224431175" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0193829512898538" />
+      <entry key="MS500" value="0.7982698753284155" />
+      <entry key="S2" value="6.5744458758780775" />
+      <entry key="S5" value="15.672238491161584" />
+      <entry key="S10" value="22.579012277683855" />
+      <entry key="S30" value="29.70219966854673" />
+      <entry key="S60" value="32.41009694155784" />
+      <entry key="M2" value="34.31301620193349" />
+      <entry key="M5" value="36.64267868296719" />
+      <entry key="M10" value="40.75254889831865" />
+      <entry key="M15" value="44.175501580415904" />
+      <entry key="M30" value="49.99466131400883" />
+      <entry key="H1" value="54.31870870579733" />
+      <entry key="H2" value="56.965183337308545" />
+      <entry key="H4" value="58.43059475943495" />
+      <entry key="D1" value="59.73089731134213" />
+      <entry key="W1" value="59.96136799497277" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3DuRVWVJvOo6wNEyR2Daq3VWx7M" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_family" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/Emmanuel Arango/Documents/EmmanuelArangoV/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "tasks.servers",
+    "settings.editor.splitter.proportion": "0.3167006",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Emmanuel Arango\Documents\EmmanuelArangoV\assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.24374.125" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="23b9cbc1-9550-42c5-8e1a-a56aa48700b1" name="Changes" comment="" />
+      <created>1775685148836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775685148836</updated>
+      <workItem from="1775685160917" duration="596000" />
+      <workItem from="1779129993928" duration="738000" />
+      <workItem from="1779148466400" duration="2766000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>
