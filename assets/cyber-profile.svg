@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 1020" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 950" width="100%" height="100%">
     <defs>
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Press+Start+2P&amp;display=swap');
-
             :root {
             /* MODO CLARO */
             --bg-color: #f1f5f9;
@@ -39,18 +37,29 @@
             }
             }
 
+            /* Fuentes Nativas de Terminal (A prueba de Overflow) */
             text {
-            font-family: 'Share Tech Mono', monospace, 'Courier New';
+            font-family: 'Courier New', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
             fill: var(--text-main);
             }
 
-            .pixel-font { font-family: 'Press Start 2P', monospace; }
+            .pixel-title { font-size: 32px; font-weight: bold; letter-spacing: -1px; }
+            .pixel-subtitle { font-size: 15px; font-weight: bold; }
+            .pixel-text { font-size: 13px; font-weight: bold; }
+
+            .pixel-list { font-size: 13px; font-weight: normal; letter-spacing: -0.5px; }
+            .pixel-small { font-size: 12px; font-weight: normal; letter-spacing: -0.5px; }
+            .bold-text { font-weight: bold; }
+
             .neon { fill: var(--blue-neon); }
             .primary { fill: var(--blue-primary); }
             .muted { fill: var(--text-muted); }
             .white-text { fill: #ffffff; }
-            .bg-rect { fill: var(--panel-bg); stroke: var(--blue-primary); stroke-width: 1.5; }
 
+            .bg-rect { fill: var(--panel-bg); stroke: var(--blue-primary); stroke-width: 1.5; }
+            .filled-rect { fill: var(--blue-primary); }
+
+            /* Animaciones */
             @keyframes float {
             0%, 100% { transform: translateY(0px); }
             50% { transform: translateY(-8px); }
@@ -62,6 +71,10 @@
             50% { opacity: 0.2; }
             }
             .pulsing { animation: pulse 3s infinite; }
+
+            .project-card { transition: all 0.3s ease; cursor: pointer; }
+            .project-card:hover { transform: scale(1.01) translateY(-2px); }
+            .project-card:hover .project-bg { fill: var(--blue-alpha); stroke: var(--blue-neon); stroke-width: 2px;}
         </style>
 
         <pattern id="main-grid" width="30" height="30" patternUnits="userSpaceOnUse">
@@ -76,22 +89,22 @@
     <rect width="100%" height="100%" fill="var(--bg-color)" />
     <rect width="100%" height="100%" fill="url(#main-grid)" />
 
-    <rect x="20" y="20" width="910" height="980" fill="none" stroke="var(--border-main)" stroke-width="1"/>
+    <rect x="20" y="20" width="910" height="910" fill="none" stroke="var(--border-main)" stroke-width="1"/>
     <path d="M 15 25 L 25 25 M 25 15 L 25 25" stroke="var(--border-main)" stroke-width="3" fill="none"/>
     <path d="M 935 25 L 925 25 M 925 15 L 925 25" stroke="var(--border-main)" stroke-width="3" fill="none"/>
-    <path d="M 15 995 L 25 995 M 25 985 L 25 995" stroke="var(--border-main)" stroke-width="3" fill="none"/>
-    <path d="M 935 995 L 925 995 M 925 985 L 925 995" stroke="var(--border-main)" stroke-width="3" fill="none"/>
+    <path d="M 15 930 L 25 930 M 25 920 L 25 930" stroke="var(--border-main)" stroke-width="3" fill="none"/>
+    <path d="M 935 930 L 925 930 M 925 920 L 925 930" stroke="var(--border-main)" stroke-width="3" fill="none"/>
 
     <g transform="translate(40, 40)">
-        <rect x="0" y="0" width="340" height="570" fill="var(--panel-bg)" stroke="var(--border-main)" stroke-width="2"/>
-        <rect x="0" y="0" width="340" height="570" fill="url(#dot-grid)"/>
+        <rect x="0" y="0" width="340" height="545" fill="var(--panel-bg)" stroke="var(--border-main)" stroke-width="2"/>
+        <rect x="0" y="0" width="340" height="545" fill="url(#dot-grid)"/>
 
         <rect x="0" y="0" width="340" height="30" fill="var(--border-main)"/>
-        <text x="15" y="20" font-size="12" fill="var(--bg-color)" font-weight="bold">FIG. 01 // KNOWLEDGE_PRISM</text>
+        <text x="15" y="20" font-size="14" fill="var(--bg-color)" font-weight="bold">FIG. 01 // KNOWLEDGE_PRISM</text>
 
-        <rect x="20" y="50" width="300" height="500" fill="none" stroke="var(--blue-primary)" stroke-width="1" stroke-dasharray="2,2"/>
+        <rect x="20" y="50" width="300" height="475" fill="none" stroke="var(--blue-primary)" stroke-width="1" stroke-dasharray="2,2"/>
 
-        <g transform="translate(170, 380)">
+        <g transform="translate(170, 360)">
             <circle cx="0" cy="-50" r="100" fill="none" stroke="var(--blue-dark)" stroke-width="0.5" opacity="0.5"/>
             <line x1="-120" y1="-50" x2="120" y2="-50" stroke="var(--blue-dark)" stroke-width="0.5" opacity="0.5"/>
             <line x1="0" y1="-180" x2="0" y2="80" stroke="var(--blue-dark)" stroke-width="0.5" opacity="0.5"/>
@@ -108,126 +121,136 @@
             </g>
         </g>
 
-        <text x="40" y="535" font-size="10" class="muted">SYS_RENDER // EAV_ENGINEERING</text>
+        <text x="40" y="515" font-size="12" font-weight="bold" class="muted">SYS_RENDER // EAV_ENGINEERING</text>
     </g>
 
     <g transform="translate(410, 50)">
 
         <g transform="translate(0, 30)">
-            <text x="3" y="3" font-size="18" class="pixel-font" fill="var(--blue-dark)" opacity="0.4">EMMANUEL ARANGO</text>
-            <text x="0" y="0" font-size="18" class="pixel-font" fill="var(--text-main)">EMMANUEL ARANGO</text>
+            <text x="3" y="3" class="pixel-title" fill="var(--blue-dark)" opacity="0.4">EMMANUEL ARANGO</text>
+            <text x="0" y="0" class="pixel-title" fill="var(--text-main)">EMMANUEL ARANGO</text>
         </g>
 
         <path d="M 0 50 L 400 50 L 415 65 L 500 65" fill="none" stroke="var(--blue-neon)" stroke-width="2"/>
         <circle cx="500" cy="65" r="3" fill="var(--blue-neon)"/>
 
-        <text x="0" y="75" font-size="16" font-weight="bold" class="primary">>> FULL STACK DEVELOPER &amp; DESIGNER</text>
+        <text x="0" y="75" class="pixel-subtitle primary">>> FULL STACK DEVELOPER &amp; DESIGNER</text>
 
-        <g transform="translate(0, 105)">
+        <g transform="translate(0, 110)">
             <rect x="0" y="-12" width="5" height="90" fill="var(--border-main)"/>
-            <text x="15" y="0" font-size="14" class="muted">STATUS   :</text>
-            <text x="100" y="0" font-size="14" font-weight="bold">[ <tspan class="neon pulsing">ONLINE</tspan> // BUILDING &amp; SHIPPING ]</text>
+            <text x="15" y="0" class="pixel-text muted">STATUS   :</text>
+            <text x="100" y="0" class="pixel-text">[ <tspan class="neon pulsing">ONLINE</tspan> // BUILDING &amp; SHIPPING ]</text>
 
-            <text x="15" y="25" font-size="14" class="muted">LOCATION :</text>
-            <text x="100" y="25" font-size="14">Medellín, Colombia</text>
+            <text x="15" y="25" class="pixel-text muted">LOCATION :</text>
+            <text x="100" y="25" class="pixel-text">Medellín, Colombia</text>
 
-            <text x="15" y="50" font-size="14" class="muted">ROLE     :</text>
-            <text x="100" y="50" font-size="14">Trainee Coder @ Riwi / Computer Engineering Student</text>
+            <text x="15" y="50" class="pixel-text muted">ROLE     :</text>
+            <text x="100" y="50" class="pixel-text primary bold-text">Computer Engineering Student | Coder @ Riwi</text>
 
-            <text x="15" y="75" font-size="14" class="muted">ENGLISH  :</text>
-            <text x="100" y="75" font-size="14" font-weight="bold" class="primary">B2 (Intermediate) - APTIS</text>
+            <text x="15" y="75" class="pixel-text muted">ENGLISH  :</text>
+            <text x="100" y="75" class="pixel-text">B2 (Intermediate) - APTIS Certified</text>
         </g>
 
-        <g transform="translate(0, 220)">
-            <rect x="0" y="0" width="500" height="110" fill="var(--blue-alpha)" stroke="var(--blue-primary)" stroke-width="1"/>
-            <rect x="0" y="0" width="500" height="20" fill="var(--blue-primary)"/>
-            <text x="10" y="14" font-size="12" font-weight="bold" class="white-text">./core/mission_statement.sh</text>
+        <g transform="translate(0, 210)">
+            <rect x="0" y="0" width="500" height="135" fill="var(--blue-alpha)" stroke="var(--blue-primary)" stroke-width="1"/>
+            <rect x="0" y="0" width="500" height="25" class="filled-rect"/>
+            <text x="10" y="17" class="pixel-text white-text">./core/mission_statement.sh</text>
 
-            <text x="15" y="45" font-size="14">I blend backend architecture with graphic design</text>
-            <text x="15" y="65" font-size="14">principles to engineer software that is highly</text>
-            <text x="15" y="85" font-size="14"><tspan class="primary" font-weight="bold">scalable, intuitive, and visually compelling.</tspan></text>
-            <text x="15" y="105" font-size="14">I view code as a medium for both logic and art.</text>
+            <text x="15" y="55" class="pixel-list">I engineer robust backend architectures and fuse them</text>
+            <text x="15" y="75" class="pixel-list">with precise, user-centric graphic design principles.</text>
+            <text x="15" y="95" class="pixel-list">Code is my medium for uncompromising logic and art,</text>
+            <text x="15" y="115" class="pixel-list">resulting in <tspan class="primary bold-text">scalable and intuitive systems.</tspan></text>
         </g>
 
-        <g transform="translate(0, 360)">
-            <text x="0" y="0" font-size="18" font-weight="bold" letter-spacing="1px">> SYSTEM_ARCHITECTURE</text>
+        <g transform="translate(0, 370)">
+            <text x="0" y="0" class="pixel-text">> SYSTEM_ARCHITECTURE</text>
 
-            <g transform="translate(0, 20)">
-                <rect x="0" y="0" width="240" height="180" class="bg-rect"/>
-                <rect x="0" y="0" width="240" height="30" fill="var(--blue-primary)"/>
-                <text x="10" y="20" font-size="13" font-weight="bold" class="white-text">BACKEND &amp; DATA</text>
+            <g transform="translate(0, 15)">
+                <rect x="0" y="0" width="240" height="150" class="bg-rect"/>
+                <rect x="0" y="0" width="240" height="30" class="filled-rect"/>
+                <text x="10" y="20" class="pixel-text white-text">BACKEND &amp; DATA</text>
 
-                <text x="30" y="54" font-size="13" font-weight="bold">Java &amp; Spring Boot</text>
-                <text x="30" y="84" font-size="13" font-weight="bold">REST APIs &amp; Postman</text>
-                <text x="30" y="114" font-size="13" font-weight="bold">SQL &amp; PostgreSQL</text>
-                <text x="30" y="144" font-size="13" font-weight="bold">ETL Data Pipelines</text>
-                <text x="30" y="174" font-size="13" font-weight="bold">IBM Database Admin</text>
+                <text x="30" y="60" class="pixel-list bold-text">Java &amp; Spring Boot</text>
+                <text x="30" y="85" class="pixel-list">RESTful APIs</text>
+                <text x="30" y="110" class="pixel-list">SQL &amp; PostgreSQL</text>
+                <text x="30" y="135" class="pixel-list">ETL Data Pipelines</text>
 
-                <circle cx="15" cy="50" r="4" fill="none" stroke="var(--blue-neon)" stroke-width="1.5"/><circle cx="15" cy="80" r="4" fill="none" stroke="var(--blue-neon)" stroke-width="1.5"/><circle cx="15" cy="110" r="4" fill="none" stroke="var(--blue-neon)" stroke-width="1.5"/><circle cx="15" cy="140" r="4" fill="none" stroke="var(--blue-neon)" stroke-width="1.5"/><circle cx="15" cy="170" r="4" fill="none" stroke="var(--blue-neon)" stroke-width="1.5"/>
+                <circle cx="15" cy="56" r="4" fill="none" stroke="var(--blue-neon)" stroke-width="1.5"/>
+                <circle cx="15" cy="81" r="4" fill="none" stroke="var(--blue-neon)" stroke-width="1.5"/>
+                <circle cx="15" cy="106" r="4" fill="none" stroke="var(--blue-neon)" stroke-width="1.5"/>
+                <circle cx="15" cy="131" r="4" fill="none" stroke="var(--blue-neon)" stroke-width="1.5"/>
             </g>
 
-            <g transform="translate(260, 20)">
-                <rect x="0" y="0" width="240" height="180" class="bg-rect"/>
-                <rect x="0" y="0" width="240" height="30" fill="var(--blue-primary)"/>
-                <text x="10" y="20" font-size="13" font-weight="bold" class="white-text">FRONTEND &amp; UI/UX</text>
+            <g transform="translate(260, 15)">
+                <rect x="0" y="0" width="240" height="150" class="bg-rect"/>
+                <rect x="0" y="0" width="240" height="30" class="filled-rect"/>
+                <text x="10" y="20" class="pixel-text white-text">FRONTEND &amp; UI/UX</text>
 
-                <text x="30" y="54" font-size="13" font-weight="bold">Next.js &amp; React</text>
-                <text x="30" y="84" font-size="13" font-weight="bold">TypeScript / JS</text>
-                <text x="30" y="114" font-size="13" font-weight="bold">Tailwind CSS</text>
-                <text x="30" y="144" font-size="13" font-weight="bold">Figma &amp; Illustrator</text>
-                <text x="30" y="174" font-size="13" font-weight="bold">Agile Methodologies</text>
+                <text x="30" y="60" class="pixel-list bold-text">Next.js &amp; React</text>
+                <text x="30" y="85" class="pixel-list">TypeScript &amp; JS</text>
+                <text x="30" y="110" class="pixel-list">Tailwind CSS</text>
+                <text x="30" y="135" class="pixel-list">Figma &amp; UI Design</text>
 
-                <rect x="12" y="47" width="6" height="6" fill="var(--blue-primary)"/><rect x="12" y="77" width="6" height="6" fill="var(--blue-primary)"/><rect x="12" y="107" width="6" height="6" fill="var(--blue-primary)"/><rect x="12" y="137" width="6" height="6" fill="var(--blue-primary)"/><rect x="12" y="167" width="6" height="6" fill="var(--blue-primary)"/>
+                <rect x="12" y="53" width="6" height="6" class="filled-rect"/>
+                <rect x="12" y="78" width="6" height="6" class="filled-rect"/>
+                <rect x="12" y="103" width="6" height="6" class="filled-rect"/>
+                <rect x="12" y="128" width="6" height="6" class="filled-rect"/>
             </g>
         </g>
     </g>
 
-    <g transform="translate(40, 650)">
+    <g transform="translate(40, 610)">
 
-        <text x="0" y="0" font-size="18" font-weight="bold" letter-spacing="1px">> DEPLOYED_ASSETS // PINNED_REPOSITORIES</text>
-        <path d="M 0 10 L 870 10" fill="none" stroke="var(--blue-primary)" stroke-width="1" stroke-dasharray="4,4"/>
+        <text x="0" y="0" class="pixel-text" letter-spacing="1px">> DEPLOYED_ASSETS // PINNED_REPOSITORIES</text>
+        <path d="M 0 15 L 870 15" fill="none" stroke="var(--blue-primary)" stroke-width="1" stroke-dasharray="4,4"/>
 
-        <g transform="translate(0, 30)">
-            <rect x="0" y="0" width="425" height="130" class="bg-rect" fill="var(--blue-alpha)"/>
-            <rect x="0" y="0" width="425" height="30" fill="var(--blue-primary)"/>
-            <text x="10" y="20" font-size="13" font-weight="bold" class="white-text">[*] PROMISE - AI AGENTS PLATFORM</text>
+        <a href="https://github.com/EmmanuelArangoV/Promise" target="_blank">
+            <g transform="translate(0, 35)" class="project-card">
+                <rect x="0" y="0" width="425" height="130" class="bg-rect project-bg"/>
+                <rect x="0" y="0" width="425" height="30" class="filled-rect"/>
+                <text x="10" y="20" class="pixel-text white-text">[*] PROMISE - AI AGENTS PLATFORM</text>
 
-            <text x="15" y="55" font-size="13" class="neon" font-weight="bold">🏆 1st Place Riwi Hackathon</text>
-            <text x="15" y="75" font-size="12" class="muted">Tech: Full Stack / JS / Integrations</text>
-            <text x="15" y="95" font-size="13">Developed a platform focused on AI agent</text>
-            <text x="15" y="115" font-size="13">interaction, managing complex data flows.</text>
-        </g>
+                <text x="15" y="56" class="pixel-text neon">🏆 1st Place Capstone Project</text>
+                <text x="15" y="80" class="pixel-small muted bold-text">Tech: Full Stack Environment</text>
+                <text x="15" y="104" class="pixel-small">Engineered a seamless system for autonomous AI agents.</text>
+            </g>
+        </a>
 
-        <g transform="translate(445, 30)">
-            <rect x="0" y="0" width="425" height="130" class="bg-rect" fill="var(--blue-alpha)"/>
-            <rect x="0" y="0" width="425" height="30" fill="var(--blue-primary)"/>
-            <text x="10" y="20" font-size="13" font-weight="bold" class="white-text">[*] KITCHEN IQ (API &amp; UI)</text>
+        <a href="https://github.com/EmmanuelArangoV/Kitchen-IQ" target="_blank">
+            <g transform="translate(445, 35)" class="project-card">
+                <rect x="0" y="0" width="425" height="130" class="bg-rect project-bg"/>
+                <rect x="0" y="0" width="425" height="30" class="filled-rect"/>
+                <text x="10" y="20" class="pixel-text white-text">[*] KITCHEN IQ (ENTERPRISE API)</text>
 
-            <text x="15" y="55" font-size="13" class="neon" font-weight="bold">Back-Office System for Restaurants</text>
-            <text x="15" y="75" font-size="12" class="muted">Tech: Java, Spring Boot, TypeScript</text>
-            <text x="15" y="95" font-size="13">Core system to optimize internal operations,</text>
-            <text x="15" y="115" font-size="13">automating inventory, orders &amp; finances.</text>
-        </g>
+                <text x="15" y="56" class="pixel-text neon">Enterprise Back-Office Architecture</text>
+                <text x="15" y="80" class="pixel-small muted bold-text">Tech: Java, Spring Boot, PostgreSQL</text>
+                <text x="15" y="104" class="pixel-small">Scalable system designed to automate restaurant logistics.</text>
+            </g>
+        </a>
 
-        <g transform="translate(0, 180)">
-            <rect x="0" y="0" width="425" height="110" class="bg-rect" fill="var(--blue-alpha)"/>
-            <rect x="0" y="0" width="425" height="30" fill="var(--blue-primary)"/>
-            <text x="10" y="20" font-size="13" font-weight="bold" class="white-text">[*] HORUS-BRASLET</text>
+        <a href="https://github.com/mcastaneda846/horus-braslet" target="_blank">
+            <g transform="translate(0, 185)" class="project-card">
+                <rect x="0" y="0" width="425" height="130" class="bg-rect project-bg"/>
+                <rect x="0" y="0" width="425" height="30" class="filled-rect"/>
+                <text x="10" y="20" class="pixel-text white-text">[*] HORUS-BRASLET</text>
 
-            <text x="15" y="55" font-size="13" class="neon" font-weight="bold">Wearable / Hardware Integration</text>
-            <text x="15" y="75" font-size="12" class="muted">Tech: TypeScript</text>
-            <text x="15" y="95" font-size="13">Logic and interface implementation for</text>
-        </g>
+                <text x="15" y="56" class="pixel-text neon">Hardware-Software Synchronization</text>
+                <text x="15" y="80" class="pixel-small muted bold-text">Tech: Wearable Integration / TypeScript</text>
+                <text x="15" y="104" class="pixel-small">Core logic implementation for wearable telemetry tech.</text>
+            </g>
+        </a>
 
-        <g transform="translate(445, 180)">
-            <rect x="0" y="0" width="425" height="110" class="bg-rect" fill="var(--blue-alpha)"/>
-            <rect x="0" y="0" width="425" height="30" fill="var(--blue-primary)"/>
-            <text x="10" y="20" font-size="13" font-weight="bold" class="white-text">[*] SOFIA-INTEGRAL</text>
+        <a href="https://github.com/EmmanuelArangoV/SofIA-Integral" target="_blank">
+            <g transform="translate(445, 185)" class="project-card">
+                <rect x="0" y="0" width="425" height="130" class="bg-rect project-bg"/>
+                <rect x="0" y="0" width="425" height="30" class="filled-rect"/>
+                <text x="10" y="20" class="pixel-text white-text">[*] SOFIA-INTEGRAL</text>
 
-            <text x="15" y="55" font-size="13" class="neon" font-weight="bold">Comprehensive AI Assistant</text>
-            <text x="15" y="75" font-size="12" class="muted">Tech: JavaScript</text>
-            <text x="15" y="95" font-size="13">Ecosystem designed for intelligent</text>
-        </g>
+                <text x="15" y="56" class="pixel-text neon">Cognitive AI Assistant Ecosystem</text>
+                <text x="15" y="80" class="pixel-small muted bold-text">Tech: JavaScript / API Architecture</text>
+                <text x="15" y="104" class="pixel-small">Intelligent workflows leveraging JS for data routing.</text>
+            </g>
+        </a>
 
     </g>
 
