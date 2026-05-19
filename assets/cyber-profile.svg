@@ -134,7 +134,7 @@
         <path d="M 0 50 L 400 50 L 415 65 L 500 65" fill="none" stroke="var(--blue-neon)" stroke-width="2"/>
         <circle cx="500" cy="65" r="3" fill="var(--blue-neon)"/>
 
-        <text x="0" y="75" class="pixel-subtitle primary">>> FULL STACK DEVELOPER &amp; DESIGNER</text>
+        <text x="0" y="75" class="pixel-subtitle primary">>> JUNIOR FULL STACK DEVELOPER &amp; DESIGNER</text>
 
         <g transform="translate(0, 110)">
             <rect x="0" y="-12" width="5" height="90" fill="var(--border-main)"/>
@@ -148,7 +148,7 @@
             <text x="100" y="50" class="pixel-text primary bold-text">Computer Engineering Student | Coder @ Riwi</text>
 
             <text x="15" y="75" class="pixel-text muted">ENGLISH  :</text>
-            <text x="100" y="75" class="pixel-text">B2 (Intermediate) - APTIS Certified</text>
+            <text x="100" y="75" class="pixel-text">B2 (Intermediate)</text>
         </g>
 
         <g transform="translate(0, 210)">
